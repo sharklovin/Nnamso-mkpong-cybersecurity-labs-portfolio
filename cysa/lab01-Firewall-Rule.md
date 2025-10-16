@@ -5,7 +5,7 @@
 
 ---
 
-## 🎯 Objective
+## Objective
 The goal of this lab was to confirm that Windows Defender Firewall is active on a Windows Server 2022 system and to adjust inbound settings for File and Printer Sharing. This helps control how systems on a private network communicate while limiting exposure to public networks.
 
 ---
@@ -32,9 +32,11 @@ Made sure the Private box was checked and Public was left unchecked.
 Saved the changes.
 
 ##Evidence Collected
+---
 Screenshot showing the firewall turned on under the Private profile.
 Screenshot of the “Allowed apps” window with File and Printer Sharing adjusted.
 PowerShell output saved as text files for both commands.
 
 ##Reflection
+---
 This lab reinforced how important it is to verify firewall settings, especially when enabling features that share files or printers. Restricting these services to a private network reduces the chance of unwanted access from public or external systems. It’s a small configuration step that supports the principle of least privilege in network defense.
