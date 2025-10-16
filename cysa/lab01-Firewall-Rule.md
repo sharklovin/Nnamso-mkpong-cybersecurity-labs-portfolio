@@ -23,10 +23,8 @@ The Private network profile was active and set to On.
 
 Opened PowerShell as Administrator and ran the command below to check each firewall profile’s configuration:
 Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction
-
-This helped confirm that inbound connections were blocked by default and outbound ones were allowed.
-
-Went back to the Control Panel and selected Allow an app or feature through Windows Defender Firewall.
+This helped confirm that inbound connections were blocked by default and outbound ones were allowed. 
+Went back to the Control Panel and selected Allow an app or feature through Windows Defender Firewall. 
 Found File and Printer Sharing in the list.
 Made sure the Private box was checked and Public was left unchecked.
 Saved the changes.
