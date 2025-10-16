@@ -23,4 +23,5 @@ Verify that Windows Defender Firewall is enabled and configure inbound settings 
 2. Verified firewall status in PowerShell:
    ```powershell
    Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction
+Opened Allow an app or feature through Windows Defender Firewall. Located File and Printer Sharing and adjusted profile checkboxes (Private checked, Public unchecked) per lab instructions.
 
