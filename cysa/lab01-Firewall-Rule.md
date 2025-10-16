@@ -23,7 +23,7 @@ The goal of this lab was to confirm that Windows Defender Firewall is active on 
 - <img width="1010" height="559" alt="screenshot_01_firewall_status" src="https://github.com/user-attachments/assets/5843556e-963a-4033-8cd4-4cdb502c2caf" />
 
 - Opened PowerShell as Administrator and ran the command below to check each firewall profile’s configuration:
-  Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction
+  **Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction**
   
   <img width="962" height="381" alt="screenshot_01_powershell" src="https://github.com/user-attachments/assets/53a827ff-ee8f-42b2-8f99-2ac710a93eac" />
 
