@@ -21,6 +21,7 @@ Do not run any tests without written authorization.
   - IP range: 10.0.1.0/24
   - Web application: portal.cybersafesolutions.com
   - DNS: www.cybersafesolutions.com
+    
 **- Out-of-scope:**
   - Payment processing system (pay.cybersafesolutions.com)
   - Customer database servers
