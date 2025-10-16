@@ -39,15 +39,8 @@ Create a Group Policy Object (GPO) to enforce password requirements across the d
 
 ---
 
-## Artifacts (screenshots)
-- `cysa/screenshot_03_gpo_list.png` — GPMC showing Password Policy GPO  
-- `cysa/screenshot_03_password_policy_settings.png` — Password Policy dialog with configured values  
-- `cysa/screenshot_03_rsop.png` — rsop.msc output verifying applied settings
-
----
-
 ## Key takeaways
-- GPOs enforce consistent security settings across the domain; always verify on a client host to confirm user experience.
+- GPOs enforce consistent security settings across the domain and always verify on a client host to confirm user experience.
 
 ---
 
