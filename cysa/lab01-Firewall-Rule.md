@@ -24,13 +24,15 @@ The goal of this lab was to confirm that Windows Defender Firewall is active on 
 
 - Opened PowerShell as Administrator and ran the command below to check each firewall profile’s configuration:
   Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction
+  
   <img width="962" height="381" alt="screenshot_01_powershell" src="https://github.com/user-attachments/assets/53a827ff-ee8f-42b2-8f99-2ac710a93eac" />
 
 - This helped confirm that inbound connections were blocked by default and outbound ones were allowed.
 - Went back to the Control Panel and selected Allow an app or feature through Windows Defender Firewall. 
 - Found File and Printer Sharing in the list.
 - Made sure the Private box was checked and Public was left unchecked.
-- <img width="1022" height="592" alt="screenshot_02_allow_app" src="https://github.com/user-attachments/assets/5c5038b3-0a40-4b44-8f49-7acf2faa7bfd" />
+  
+  <img width="1022" height="592" alt="screenshot_02_allow_app" src="https://github.com/user-attachments/assets/5c5038b3-0a40-4b44-8f49-7acf2faa7bfd" />
 
 - Lastly i saved the changes.
 
