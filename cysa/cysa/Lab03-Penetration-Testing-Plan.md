@@ -27,6 +27,7 @@ Do not run any tests without written authorization.
   - Customer database servers
   - Third-party vendor systems
   - Employee workstations
+    
 **- Testing Allowed:**
   - External network scanning
   - Web application testing (OWASP Top 10, limited to 5 main pages)
