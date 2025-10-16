@@ -21,7 +21,7 @@ The goal of this lab was to confirm that Windows Defender Firewall is active on 
 - Opened Control Panel → System and Security → Windows Defender Firewall → Check Firewall Status to confirm the firewall was turned on.
 - The Private network profile was active and set to On.
 - Opened PowerShell as Administrator and ran the command below to check each firewall profile’s configuration:
-- Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction
+  Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction
 - This helped confirm that inbound connections were blocked by default and outbound ones were allowed.
 - Went back to the Control Panel and selected Allow an app or feature through Windows Defender Firewall. 
 - Found File and Printer Sharing in the list.
@@ -34,6 +34,10 @@ Screenshot showing the firewall turned on under the Private profile.
 Screenshot of the “Allowed apps” window with File and Printer Sharing adjusted.
 PowerShell output saved as text files for both commands.
 
+---
+
 Reflection
 ---
 This lab reinforced how important it is to verify firewall settings, especially when enabling features that share files or printers. Restricting these services to a private network reduces the chance of unwanted access from public or external systems. It’s a small configuration step that supports the principle of least privilege in network defense.
+
+---
