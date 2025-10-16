@@ -21,7 +21,6 @@ The goal of this lab was to confirm that Windows Defender Firewall is active on 
 - Opened Control Panel → System and Security → Windows Defender Firewall → Check Firewall Status to confirm the firewall was turned on.
 - The Private network profile was active and set to On.
 - <img width="1010" height="559" alt="screenshot_01_firewall_status" src="https://github.com/user-attachments/assets/5843556e-963a-4033-8cd4-4cdb502c2caf" />
-
 - Opened PowerShell as Administrator and ran the command below to check each firewall profile’s configuration:
   **Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction**
   
