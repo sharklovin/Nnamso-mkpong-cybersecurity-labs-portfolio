@@ -40,7 +40,7 @@ To explore the Windows Registry structure, identify key system settings, and und
 
 ## Located Maximum Password Age Setting
 - Navigated to:
-- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SeCEdit\Reg Values\MACHINE/System/CurrentControlSet/Services/Netlogon/Parameters/
+**- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SeCEdit\Reg Values\MACHINE/System/CurrentControlSet/Services/Netlogon/Parameters/**
 - Found and noted the value controlling maximum machine account password age.
 - <img width="1001" height="594" alt="Located Maximum Password Age Setting" src="https://github.com/user-attachments/assets/47bfebb9-fa0d-416d-812f-51241553f1a3" />
 
@@ -67,6 +67,7 @@ This activity helped me understand how deeply integrated Windows security polici
 Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
 
 Making manual edits here could impact system behavior, so administrative caution is essential.
+
 
 
 
