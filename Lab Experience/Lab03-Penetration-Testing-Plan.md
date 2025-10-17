@@ -1,7 +1,7 @@
 ## PENETRATION TESTING PLAN 
 Do not run any tests without written authorization.
 
-## Target organization: CyberSafe Solutions Inc. - A fictional cybersecurity consulting firm
+## CyberSafe Solutions Inc. - A fictional cybersecurity consulting firm
 
 **Purpose / Objective:** Test the security posture of external web applications and network infrastructure, identify exploitable weaknesses, and provide remediation guidance to improve overall security.
 
@@ -61,6 +61,7 @@ Do not run any tests without written authorization.
 **Approver: Ahmad Dickson**
 
 **Date: 2025-16-05**
+
 
 
 
