@@ -20,7 +20,6 @@ To explore the Windows Registry structure, identify key system settings, and und
 **Opened Registry Editor by launching regedit using the Windows search bar.**
 
   <img width="749" height="311" alt="Opened Registry Editor" src="https://github.com/user-attachments/assets/37e65f50-d673-4979-b751-1e7ec7cc5256" />
-- Gave administrator permission when prompted.
 
 ---
 
@@ -31,6 +30,7 @@ To explore the Windows Registry structure, identify key system settings, and und
 - HKEY_LOCAL_MACHINE
 - HKEY_USERS
 - HKEY_CURRENT_CONFIG
+  
   <img width="906" height="591" alt="Explored the Main Registry Hives" src="https://github.com/user-attachments/assets/d3e278b7-dc85-4e03-b647-da41d5a07789" />
 
 - Observed how each hive stores system, user, and configuration data.
@@ -67,6 +67,7 @@ This activity helped me understand how deeply integrated Windows security polici
 Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
 
 Making manual edits here could impact system behavior, so administrative caution is essential.
+
 
 
 
