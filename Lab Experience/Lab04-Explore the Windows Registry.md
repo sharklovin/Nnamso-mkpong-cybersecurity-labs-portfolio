@@ -1,0 +1,56 @@
+## Explore the Windows Registry
+**Category:** CySA+  
+**Date:** 16/10/2025  
+**Author: Nnamso Mkpong:**
+
+---
+
+## Objective
+To explore the Windows Registry structure, identify key system settings, and understand how security configurations such as password policies are stored in the system registry.
+
+---
+
+## Environment / Tools
+- secpol.msc
+- gpedit.msc    
+
+---
+
+## Steps (what I did)
+## Opened Registry Editor https://image2url.com/images/1760704359064-1f2f847b-f669-4286-a68b-a3f345f3320a.png
+- Launched regedit using the Windows search bar.
+- Gave administrator permission when prompted.
+
+## Explored the Main Registry Hives
+- Expanded and reviewed the following hives:
+- HKEY_CLASSES_ROOT
+- HKEY_CURRENT_USER
+- HKEY_LOCAL_MACHINE
+- HKEY_USERS
+- HKEY_CURRENT_CONFIG
+- Observed how each hive stores system, user, and configuration data.
+- No changes were made to avoid impacting system stability.
+
+## Located Maximum Password Age Setting
+- Navigated to:
+- HKEY_LOCAL_MACHINE\
+- SOFTWARE\Microsoft\Windows NT\
+- CurrentVersion\SeCEdit\Reg Values\
+- MACHINE/System/CurrentControlSet/Services/Netlogon/Parameters/
+- Found and noted the value controlling maximum machine account password age.
+
+## Viewed Security Policy Setting via secpol.msc
+Opened **Local Security Policy (secpol.msc) as Administrator.**
+**Navigated to:**
+- Security Settings → Local Policies → Security Options → Domain Member: Maximum Machine Account Password Age
+- Recorded the value (default: 30 days).
+
+## Lastly i observed Policy Change Effect
+- Changed the maximum password age in secpol.msc.
+- Reopened regedit to confirm that the value updated under the same registry path.
+- This confirmed the link between Group Policy settings and Registry configurations.
+
+## Reflection
+This activity helped me understand how deeply integrated Windows security policies are with the registry.
+Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
+Making manual edits here could impact system behavior, so administrative caution is essential.
