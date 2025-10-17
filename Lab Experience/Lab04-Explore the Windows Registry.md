@@ -17,8 +17,8 @@ To explore the Windows Registry structure, identify key system settings, and und
 ---
 
 ## Steps (what I did)
-## Opened Registry Editor 
-**- Launched regedit using the Windows search bar.**
+**Opened Registry Editor by launching regedit using the Windows search bar.**
+
   <img width="749" height="311" alt="Opened Registry Editor" src="https://github.com/user-attachments/assets/37e65f50-d673-4979-b751-1e7ec7cc5256" />
 - Gave administrator permission when prompted.
 
@@ -67,6 +67,7 @@ This activity helped me understand how deeply integrated Windows security polici
 Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
 
 Making manual edits here could impact system behavior, so administrative caution is essential.
+
 
 
 
