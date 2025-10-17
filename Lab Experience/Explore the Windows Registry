@@ -1,56 +1,50 @@
-## Explore the Windows Registry
+
+# Lab 01 — Verify Windows Defender Firewall & Configure File and Printer Sharing
 **Category:** CySA+  
 **Date:** 16/10/2025  
-**Author: Nnamso Mkpong:**
+**Author:** Nnamso Mkpong
 
 ---
 
 ## Objective
-To explore the Windows Registry structure, identify key system settings, and understand how security configurations such as password policies are stored in the system registry.
+The goal of this lab was to confirm that Windows Defender Firewall is active on a Windows Server 2022 system and to adjust inbound settings for File and Printer Sharing. This helps control how systems on a private network communicate while limiting exposure to public networks.
 
 ---
 
 ## Environment / Tools
-- secpol.msc
-- gpedit.msc    
+- Windows Server 2022 (test system)  
+- Control Panel → Windows Defender Firewall  
+- PowerShell (Get-NetFirewallProfile, Get-NetFirewallRule)
 
 ---
 
 ## Steps (what I did)
-## Opened Registry Editor https://image2url.com/images/1760704359064-1f2f847b-f669-4286-a68b-a3f345f3320a.png
-- Launched regedit using the Windows search bar.
-- Gave administrator permission when prompted.
+- Opened Control Panel → System and Security → Windows Defender Firewall → Check Firewall Status to confirm the firewall was turned on.
+- The Private network profile was active and set to On.
+- <img width="1010" height="559" alt="screenshot_01_firewall_status" src="https://github.com/user-attachments/assets/5843556e-963a-4033-8cd4-4cdb502c2caf" />
+- Opened PowerShell as Administrator and ran the command below to check each firewall profile’s configuration:
+  **Get-NetFirewallProfile | Format-List Name, Enabled, DefaultInboundAction, DefaultOutboundAction**
+ <img width="962" height="381" alt="screenshot_01_powershell" src="https://github.com/user-attachments/assets/53a827ff-ee8f-42b2-8f99-2ac710a93eac" />
 
-## Explored the Main Registry Hives
-- Expanded and reviewed the following hives:
-- HKEY_CLASSES_ROOT
-- HKEY_CURRENT_USER
-- HKEY_LOCAL_MACHINE
-- HKEY_USERS
-- HKEY_CURRENT_CONFIG
-- Observed how each hive stores system, user, and configuration data.
-- No changes were made to avoid impacting system stability.
+- This helped confirm that inbound connections were blocked by default and outbound ones were allowed.
+- Went back to the Control Panel and selected Allow an app or feature through Windows Defender Firewall. 
+- Found File and Printer Sharing in the list.
+- Made sure the Private box was checked and Public was left unchecked.
+  
+  <img width="1022" height="592" alt="screenshot_02_allow_app" src="https://github.com/user-attachments/assets/5c5038b3-0a40-4b44-8f49-7acf2faa7bfd" />
 
-## Located Maximum Password Age Setting
-- Navigated to:
-- HKEY_LOCAL_MACHINE\
-- SOFTWARE\Microsoft\Windows NT\
-- CurrentVersion\SeCEdit\Reg Values\
-- MACHINE/System/CurrentControlSet/Services/Netlogon/Parameters/
-- Found and noted the value controlling maximum machine account password age.
+- Lastly i saved the changes.
 
-## Viewed Security Policy Setting via secpol.msc
-Opened **Local Security Policy (secpol.msc) as Administrator.**
-**Navigated to:**
-- Security Settings → Local Policies → Security Options → Domain Member: Maximum Machine Account Password Age
-- Recorded the value (default: 30 days).
+Evidence Collected
+---
+Screenshot showing the firewall turned on under the Private profile.
+Screenshot of the “Allowed apps” window with File and Printer Sharing adjusted.
+PowerShell output saved as text files for both commands.
 
-## Lastly i observed Policy Change Effect
-- Changed the maximum password age in secpol.msc.
-- Reopened regedit to confirm that the value updated under the same registry path.
-- This confirmed the link between Group Policy settings and Registry configurations.
+---
 
-## Reflection
-This activity helped me understand how deeply integrated Windows security policies are with the registry.
-Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
-Making manual edits here could impact system behavior, so administrative caution is essential.
+Reflection
+---
+This lab reinforced how important it is to verify firewall settings, especially when enabling features that share files or printers. Restricting these services to a private network reduces the chance of unwanted access from public or external systems. It’s a small configuration step that supports the principle of least privilege in network defense.
+
+---
