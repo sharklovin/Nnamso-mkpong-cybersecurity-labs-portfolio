@@ -1,7 +1,7 @@
 ## Explore the Windows Registry
 **Category:** CySA+  
-**Date:** 16/10/2025  
-**Author: Nnamso Mkpong:**
+**Date:** 17/10/2025  
+**Author: Nnamso Mkpong**
 
 ---
 
@@ -67,6 +67,7 @@ This activity helped me understand how deeply integrated Windows security polici
 Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
 
 Making manual edits here could impact system behavior, so administrative caution is essential.
+
 
 
 
