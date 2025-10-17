@@ -55,6 +55,7 @@ Opened **Local Security Policy (secpol.msc) as Administrator.**
 **Navigated to:**
 - Security Settings → Local Policies → Security Options → Domain Member: Maximum Machine Account Password Age
 - Recorded the value (default: 30 days).
+  
   <img width="860" height="604" alt="Recorded the value " src="https://github.com/user-attachments/assets/177c7c4d-6c7e-4f32-8a6c-9efbd99f6a4a" />
 
 ---
@@ -71,6 +72,7 @@ This activity helped me understand how deeply integrated Windows security polici
 Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
 
 Making manual edits here could impact system behavior, so administrative caution is essential.
+
 
 
 
