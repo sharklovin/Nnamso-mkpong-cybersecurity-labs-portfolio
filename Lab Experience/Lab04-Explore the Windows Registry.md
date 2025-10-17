@@ -19,11 +19,10 @@ To explore the Windows Registry structure, identify key system settings, and und
 ## Steps (what I did)
 ## Opened Registry Editor 
 - Launched regedit using the Windows search bar.<img width="749" height="311" alt="Opened Registry Editor" src="https://github.com/user-attachments/assets/37e65f50-d673-4979-b751-1e7ec7cc5256" />
-
 - Gave administrator permission when prompted.
 
 ## Explored the Main Registry Hives
-- Expanded and reviewed the following hives:
+- Expanded and reviewed the following hives:<img width="906" height="591" alt="Explored the Main Registry Hives" src="https://github.com/user-attachments/assets/431717f6-655b-446e-b601-617d608fdc28" />
 - HKEY_CLASSES_ROOT
 - HKEY_CURRENT_USER
 - HKEY_LOCAL_MACHINE
@@ -38,13 +37,16 @@ To explore the Windows Registry structure, identify key system settings, and und
 - SOFTWARE\Microsoft\Windows NT\
 - CurrentVersion\SeCEdit\Reg Values\
 - MACHINE/System/CurrentControlSet/Services/Netlogon/Parameters/
-- Found and noted the value controlling maximum machine account password age.
+- Found and noted the value controlling maximum machine account password age.<img width="1001" height="594" alt="Located Maximum Password Age Setting" src="https://github.com/user-attachments/assets/47bfebb9-fa0d-416d-812f-51241553f1a3" />
+
 
 ## Viewed Security Policy Setting via secpol.msc
-Opened **Local Security Policy (secpol.msc) as Administrator.**
+Opened **Local Security Policy (secpol.msc) as Administrator.**<img width="749" height="677" alt="Security Policy" src="https://github.com/user-attachments/assets/9f873bda-6d38-4289-898b-d9ff32eee4df" />
+
 **Navigated to:**
 - Security Settings → Local Policies → Security Options → Domain Member: Maximum Machine Account Password Age
-- Recorded the value (default: 30 days).
+- Recorded the value (default: 30 days).<img width="858" height="554" alt="Local Security Policy" src="https://github.com/user-attachments/assets/d7818582-d055-4be0-84ec-bfbebdf0d636" />
+
 
 ## Lastly i observed Policy Change Effect
 - Changed the maximum password age in secpol.msc.
@@ -56,3 +58,4 @@ This activity helped me understand how deeply integrated Windows security polici
 Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
 
 Making manual edits here could impact system behavior, so administrative caution is essential.
+
