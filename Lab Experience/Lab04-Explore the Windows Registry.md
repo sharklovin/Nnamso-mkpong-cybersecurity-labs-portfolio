@@ -40,14 +40,17 @@ To explore the Windows Registry structure, identify key system settings, and und
 
 ## Located Maximum Password Age Setting
 - Navigated to:
-**- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SeCEdit\Reg Values\MACHINE/System/CurrentControlSet/Services/Netlogon/Parameters/**
-- Found and noted the value controlling maximum machine account password age.
+**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SeCEdit\Reg** **Values\MACHINE/System/CurrentControlSet/Services/Netlogon/Parameters/**
+- Found and noted the value controlling maximum machine account password age  which on default was 30 days.
+  
 - <img width="1001" height="594" alt="Located Maximum Password Age Setting" src="https://github.com/user-attachments/assets/47bfebb9-fa0d-416d-812f-51241553f1a3" />
 
 ---
 
-## Viewed Security Policy Setting via secpol.msc
-Opened **Local Security Policy (secpol.msc) as Administrator.**<img width="749" height="677" alt="Security Policy" src="https://github.com/user-attachments/assets/9f873bda-6d38-4289-898b-d9ff32eee4df" />
+## I opened and viewed Security Policy Setting via secpol.msc
+Opened **Local Security Policy (secpol.msc) as Administrator.**
+
+**<img width="749" height="677" alt="Security Policy" src="https://github.com/user-attachments/assets/9f873bda-6d38-4289-898b-d9ff32eee4df" />
 
 **Navigated to:**
 - Security Settings → Local Policies → Security Options → Domain Member: Maximum Machine Account Password Age
@@ -57,16 +60,18 @@ Opened **Local Security Policy (secpol.msc) as Administrator.**<img width="749" 
 ---
 
 ## Lastly i observed Policy Change Effect
-- Changed the maximum password age in secpol.msc.<img width="858" height="600" alt="Changed the maximum password age in secpol ms" src="https://github.com/user-attachments/assets/6bb8df05-ea41-46c8-98b3-41da00b196c6" />
+- Changed the maximum password age in secpol.msc.
+
+<img width="858" height="600" alt="Changed the maximum password age in secpol ms" src="https://github.com/user-attachments/assets/6bb8df05-ea41-46c8-98b3-41da00b196c6" />
 
 - Reopened regedit to confirm that the value updated under the same registry path.
-- This confirmed the link between Group Policy settings and Registry configurations.
 
 ## Reflection
 This activity helped me understand how deeply integrated Windows security policies are with the registry.
 Even though most users manage security through graphical tools like secpol.msc or gpedit.msc, the registry is where the actual configuration values live. 
 
 Making manual edits here could impact system behavior, so administrative caution is essential.
+
 
 
 
