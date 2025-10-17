@@ -19,8 +19,9 @@ To explore the Center for Internet Security (CIS) benchmarks for Windows 11 and 
 **Accessed CIS Benchmarks**
 - Visited [cisecurity.org/cis-benchmarks](https://www.cisecurity.org/insights/webinar/effective-implementation-of-the-cis-benchmarks-and-cis-controls)
 - Signed up and downloaded CIS_Microsoft_Windows_11_Stand-alone_Benchmark_v2.0.0 PDF
-- <img width="1277" height="585" alt="Signed up and downloaded the Windows 11 Stand-alone Benchmark PDF" src="https://github.com/user-attachments/assets/a833426e-afa1-4885-9347-50f2566dd42f" />
+  <img width="1277" height="585" alt="Signed up and downloaded the Windows 11 Stand-alone Benchmark PDF" src="https://github.com/user-attachments/assets/a833426e-afa1-4885-9347-50f2566dd42f" />
 
+---
 
 ## Reviewed Benchmark Structure
 - Opened the document and examined the index to understand how it’s organized by system area (Account Policies, Network Settings, Services, etc.).
@@ -44,3 +45,4 @@ To explore the Center for Internet Security (CIS) benchmarks for Windows 11 and 
 ## Reflection
 
 This exercise provided real-world insight into how security standards like CIS benchmarks guide administrators in securing systems. The document showed not only what to change but also why, which helps justify configuration decisions when working with management or compliance teams.
+
