@@ -45,7 +45,7 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 
 ---
 
-6. Visited the target web server in Firefox:**http://http://192.168.119.133/**
+6. Visited the target web server in Firefox: **http://192.168.119.133/**
 <img width="1149" height="496" alt="started firefox and navigate to the metaspliot ip" src="https://github.com/user-attachments/assets/8c016793-568b-4f0d-8e8f-929de06cf4a0" />
 
 ---
@@ -100,6 +100,7 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ## Conclusion
 
 The scan signature is visible as many SYN probes from one source to many destination ports, which is distinguishable from legitimate browser traffic that shows complete handshakes and application-layer data.
+
 
 
 
