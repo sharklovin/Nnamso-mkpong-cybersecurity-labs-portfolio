@@ -45,7 +45,7 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 
 ---
 
-6. Visited the target web server in Firefox:`http://http://192.168.119.133/
+6. Visited the target web server in Firefox:**http://http://192.168.119.133/**
 <img width="1149" height="496" alt="started firefox and navigate to the metaspliot ip" src="https://github.com/user-attachments/assets/8c016793-568b-4f0d-8e8f-929de06cf4a0" />
 
 ---
@@ -55,26 +55,28 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ---
 
 8. Reran an nmap scan using a SYN scan to compare behavior:
-   - `nmap -sS -p 1-65535 192.168.119.133
+   - **nmap -sS -p 1-65535 192.168.119.133**
    <img width="1136" height="552" alt="-sS scan" src="https://github.com/user-attachments/assets/1b77eb01-c220-48ef-8999-725b88097468" />
 
 ---
 
-9. In Wireshark, applied a filter for the discovered port: `tcp.port == 512`<img width="1154" height="515" alt="i searched th opened port 512 and nothing displayed" src="https://github.com/user-attachments/assets/88930950-53ab-4496-970b-ae5ae78a8d82" />
+9. In Wireshark, applied a filter for the discovered port: **tcp.port == 512**
+<img width="1154" height="515" alt="i searched th opened port 512 and nothing displayed" src="https://github.com/user-attachments/assets/88930950-53ab-4496-970b-ae5ae78a8d82" />
 
 ---
 
-10. Reviewed HTTP traffic with this filter: `tcp.port == 80`
+10. Reviewed HTTP traffic with this filter: **tcp.port == 80**
 
 ---
 
 ## Analysis / Observations
-- `tcp.port == 512` returned no matches in the capture. That indicates either:
-- The port reported by nmap was not used during the exact capture window, or nmap reported it as open but the probe traffic was not captured on the interface selected, or the open service on that port was UDP or otherwise not visible as TCP on that capture.<img width="1154" height="515" alt="i searched th opened port 512 and nothing displayed" src="https://github.com/user-attachments/assets/b4924f02-6981-457c-b0ba-b9223d7d05a9" />
+- **tcp.port == 512** returned no matches in the capture. That indicates either:
+- The port reported by nmap was not used during the exact capture window, or nmap reported it as open but the probe traffic was not captured on the interface selected, or the open service on that port was UDP or otherwise not visible as TCP on that capture.
+<img width="1154" height="515" alt="i searched th opened port 512 and nothing displayed" src="https://github.com/user-attachments/assets/b4924f02-6981-457c-b0ba-b9223d7d05a9" />
 
 ---
 
-- Repeating the scan with -sS and rechecking `tcp.port == 512` still returned no results in the saved capture.
+- Repeating the scan with -sS and rechecking **tcp.port == 512** still returned no results in the saved capture.
 <img width="1154" height="515" alt="i searched th opened port 512 and nothing displayed" src="https://github.com/user-attachments/assets/8a084941-b71d-4374-944e-cf4f4746893a" />
 
 ---
@@ -98,6 +100,7 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ## Conclusion
 
 The scan signature is visible as many SYN probes from one source to many destination ports, which is distinguishable from legitimate browser traffic that shows complete handshakes and application-layer data.
+
 
 
 
