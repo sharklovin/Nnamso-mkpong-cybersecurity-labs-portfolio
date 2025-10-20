@@ -36,7 +36,7 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ---
 
 4. Ran nmap on Kali:
-   - `nmap -p 1-65535 192.168.119.133
+   - **nmap -p 1-65535 192.168.119.133**
 
 ---
 
@@ -100,6 +100,7 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ## Conclusion
 
 The scan signature is visible as many SYN probes from one source to many destination ports, which is distinguishable from legitimate browser traffic that shows complete handshakes and application-layer data.
+
 
 
 
