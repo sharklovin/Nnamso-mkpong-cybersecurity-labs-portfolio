@@ -19,7 +19,8 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ---
 
 ## Steps (what I did)
-1. I started up both my Kali Linux and Metasploitable virtual machines and logged into both of them. <img width="1163" height="581" alt="Kali  start up" src="https://github.com/user-attachments/assets/2d078e24-0530-426c-9b2b-9cfccc6dd66a" />
+1. I started up both my Kali Linux and Metasploitable virtual machines and logged into both of them. 
+<img width="1163" height="581" alt="Kali  start up" src="https://github.com/user-attachments/assets/2d078e24-0530-426c-9b2b-9cfccc6dd66a" />
 <img width="1134" height="570" alt="metaspliot start up" src="https://github.com/user-attachments/assets/6dbedba7-b392-47b7-a38f-c2e673fbf6a7" />
 
 
@@ -67,3 +68,4 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ## Conclusion
 
 The scan signature is visible as many SYN probes from one source to many destination ports, which is distinguishable from legitimate browser traffic that shows complete handshakes and application-layer data.
+
