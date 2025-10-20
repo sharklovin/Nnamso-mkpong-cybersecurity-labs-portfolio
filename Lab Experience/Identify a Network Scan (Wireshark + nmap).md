@@ -1,4 +1,4 @@
-<img width="1093" height="519" alt="nmap port scan" src="https://github.com/user-attachments/assets/9c94bc79-3671-4d5c-818c-e6a1afc16f69" />## Review System Hardening Guidelines
+## Review System Hardening Guidelines
 **Category:** CySA+  
 **Date:** 20/10/2025  
 **Author: Nnamso Mkpong**
@@ -90,5 +90,6 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ## Conclusion
 
 The scan signature is visible as many SYN probes from one source to many destination ports, which is distinguishable from legitimate browser traffic that shows complete handshakes and application-layer data.
+
 
 
