@@ -1,4 +1,4 @@
-## Review System Hardening Guidelines
+## Identifying a Network Scan
 **Category:** CySA+  
 **Date:** 20/10/2025  
 **Author: Nnamso Mkpong**
@@ -100,6 +100,7 @@ Capture and identify a network scan from Kali to a Metasploitable target using W
 ## Conclusion
 
 The scan signature is visible as many SYN probes from one source to many destination ports, which is distinguishable from legitimate browser traffic that shows complete handshakes and application-layer data.
+
 
 
 
