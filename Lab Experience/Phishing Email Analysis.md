@@ -59,8 +59,9 @@ Received an email with display name "Opensea" sent from `emails.dynamitestyle.co
 ---
 
 ## Findings / Conclusion
-- The email emails.dynamitestyle.com is suspicious for impersonation and should be treated as phishing.  
+- The email 'emails.dynamitestyle.com' is suspicious for impersonation and should be treated as phishing.  
 - Recommended steps: mark as phishing, block sender domain in mail filters.
 - No evidence of successful compromise has been found at this time.
+
 
 
