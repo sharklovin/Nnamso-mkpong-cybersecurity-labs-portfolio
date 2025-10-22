@@ -50,7 +50,7 @@ Received an email with display name "Opensea" sent from `emails.dynamitestyle.co
 - I proceeded with a deeper investigation by extracting the actual embedded link from the email. I did this by opening the specific email, clicked the three vertical dots in the top-right corner, and selected "Show original" to access the raw email source code.
 <img width="488" height="237" alt="email head summary" src="https://github.com/user-attachments/assets/40c85ead-6db9-466e-a1a3-964daabb3c63" />
 
--
+
 
 -   I then located the body of the email and copied the URL hidden behind the "Access Now" button. Finally, I submitted this link to Virus Total for analysis, which confirmed the domain was malicious and flagged by a security vendor.
   <img width="1329" height="515" alt="score" src="https://github.com/user-attachments/assets/0c5f614d-05cf-45f9-9443-e277da7595fd" />
@@ -63,6 +63,7 @@ Received an email with display name "Opensea" sent from `emails.dynamitestyle.co
 - The email 'emails.dynamitestyle.com' is suspicious for impersonation and should be treated as phishing.  
 - Recommended steps: mark as phishing, block sender domain in mail filters.
 - No evidence of successful compromise has been found at this time.
+
 
 
 
