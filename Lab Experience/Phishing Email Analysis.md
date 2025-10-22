@@ -31,8 +31,9 @@ Received an email with display name "Opensea" sent from `emails.dynamitestyle.co
 - **Conclusion:** The email address did not match. High suspicion of impersonation.
 
 ---
-### 2. Reply-To and tracking-style address 
-<img width="533" height="334" alt="real doman email" src="https://github.com/user-attachments/assets/8c218243-a97c-47e2-aecc-571418a4c3fc" />
+### 2. Reply-To and tracking style address 
+<img width="484" height="233" alt="reply to" src="https://github.com/user-attachments/assets/d8f2220b-0977-4dfb-b9ff-1459031c9f7b" />
+
 
 - Reply-To contains a long, tracking-looking address on the same suspicious domain.  
 - Reply-To may route responses to attacker-managed inboxes and is commonly used by phishing campaigns to capture replies.  
@@ -61,4 +62,5 @@ Received an email with display name "Opensea" sent from `emails.dynamitestyle.co
 - The email emails.dynamitestyle.com is suspicious for impersonation and should be treated as phishing.  
 - Recommended steps: mark as phishing, block sender domain in mail filters.
 - No evidence of successful compromise has been found at this time.
+
 
