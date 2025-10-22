@@ -1,4 +1,4 @@
-# Phishing Email Analysis — "Opensea" impersonation
+## Phishing Email Analysis (Opensea impersonation)
 **Category:** CySA+  
 **Date:** 12/10/2025 (email received)  
 **Author:** Nnamso Mkpong
@@ -48,7 +48,8 @@ Received an email with display name "Opensea" sent from `emails.dynamitestyle.co
   False Urgency: "Hurry", "won't last forever", "limited-time opportunity"
 
 - I proceeded with a deeper investigation by extracting the actual embedded link from the email. I did this by opening the specific email, clicked the three vertical dots in the top-right corner, and selected "Show original" to access the raw email source code.
-<img width="488" height="237" alt="email head summary" src="https://github.com/user-attachments/assets/40c85ead-6db9-466e-a1a3-964daabb3c63" />
+<img width="1037" height="356" alt="check the link" src="https://github.com/user-attachments/assets/009eff47-fb7e-4b01-aba1-22e6abf80b03" />
+
 
 
 
@@ -63,6 +64,7 @@ Received an email with display name "Opensea" sent from `emails.dynamitestyle.co
 - The email 'emails.dynamitestyle.com' is suspicious for impersonation and should be treated as phishing.  
 - Recommended steps: mark as phishing, block sender domain in mail filters.
 - No evidence of successful compromise has been found at this time.
+
 
 
 
