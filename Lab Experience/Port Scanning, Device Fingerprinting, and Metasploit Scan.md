@@ -62,21 +62,21 @@ The comprehensive scan discovered 5 new ports (3632, 6697, 8787, 47786, 49404, 5
 - Reviewed discovered vulnerabilities using wmap_vulns -l
 <img width="712" height="373" alt="show vulns" src="https://github.com/user-attachments/assets/6209a5c1-1194-475c-bbbb-cf88b8cdfcbf" />
 
+---
 
-**Key Findings**
-- Web Server: Apache 2.2.8 (Ubuntu) with PHP/5.2.4
+## Key Findings
+**Web Server:** Apache 2.2.8 (Ubuntu) with PHP/5.2.4: Reveals exact Apache/PHP versions, allowing attackers to target known exploits for these specific software versions.
 <img width="1134" height="413" alt="scan for vuln" src="https://github.com/user-attachments/assets/65717a44-7f4a-4570-8322-1a3a194cdf3a" />
 
- Reveals exact Apache/PHP versions, allowing attackers to target known exploits for these specific software versions.
+**Exposed Directories:** `/dav/, /doc/, /phpMyAdmin/, /test/, /icons/, /index/´ which could do the following: 
+- /phpMyAdmin/ exposure - Allows attackers to attempt database authentication bypass or SQL injection attacks on the MySQL administration interface.
+- /dav/ WebDAV directory - Could enable unauthorized file uploads, downloads, or modification of web content if misconfigured.
+- /doc/ directory exposure - May reveal sensitive documentation, configuration files, or application details to attackers.
+- /test/ directory access - Often contains testing scripts or data that could expose application vulnerabilities or sensitive information.
+  <img width="712" height="373" alt="show vulns" src="https://github.com/user-attachments/assets/745c37ad-2bdb-47e2-b660-7df5d7307628" />
 
-
-- Exposed Directories: /dav/, /doc/, /phpMyAdmin/, /test/, /icons/, /index/
-- <img width="712" height="373" alt="show vulns" src="https://github.com/user-attachments/assets/745c37ad-2bdb-47e2-b660-7df5d7307628" />
-/phpMyAdmin/ exposure - Allows attackers to attempt database authentication bypass or SQL injection attacks on the MySQL administration interface.
-/dav/ WebDAV directory - Could enable unauthorized file uploads, downloads, or modification of web content if misconfigured.
-/doc/ directory exposure - May reveal sensitive documentation, configuration files, or application details to attackers.
-/test/ directory access - Often contains testing scripts or data that could expose application vulnerabilities or sensitive information.
 
 
 ## Conclusion
 - The port scanning and fingerprinting exercises confirmed that Metasploitable exposes multiple open services. The scan successfully identified multiple exposed directories and services, with /phpMyAdmin/ access posing the most significant security risk due to potential database compromise vectors.
+
