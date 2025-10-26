@@ -75,13 +75,14 @@ The comprehensive scan discovered 5 new ports `(3632, 6697, 8787, 47786, 49404, 
 - /test/ directory access - Often contains testing scripts or data that could expose application vulnerabilities or sensitive information.
   <img width="712" height="373" alt="show vulns" src="https://github.com/user-attachments/assets/745c37ad-2bdb-47e2-b660-7df5d7307628" />
 
-
+---
 
 ## Conclusion
 - The port scanning and fingerprinting exercises confirmed that Metasploitable exposes multiple open services running on outdated software
 - OS detection accurately identified the Linux 2.6.x kernel, demonstrating effective device fingerprinting  
 - The vulnerability assessment successfully identified multiple exposed directories and services, with `/phpMyAdmin/` access posing the most significant security risk due to potential database compromise vectors
 - These findings highlight the importance of proper service hardening and directory access controls
+
 
 
 
