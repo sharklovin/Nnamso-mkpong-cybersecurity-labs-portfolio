@@ -17,7 +17,7 @@
 ## Environment / Tools
 - Attacker: Kali Linux VM (username: `kali`, password: `kali`)  
 - Target: Metasploitable VM (username: `msfadmin`, password: `msfadmin`)  
-- Tools: `nmap`, `Metasploit Framework (msfconsole)` VM ware 17 pro
+- Tools: `nmap`, `Metasploit Framework (msfconsole)` `VMware Workstation Pro`
 
 ---
 ## Steps
@@ -82,6 +82,7 @@ The comprehensive scan discovered 5 new ports `(3632, 6697, 8787, 47786, 49404, 
 - OS detection accurately identified the Linux 2.6.x kernel, demonstrating effective device fingerprinting  
 - The vulnerability assessment successfully identified multiple exposed directories and services, with `/phpMyAdmin/` access posing the most significant security risk due to potential database compromise vectors
 - These findings highlight the importance of proper service hardening and directory access controls
+
 
 
 
