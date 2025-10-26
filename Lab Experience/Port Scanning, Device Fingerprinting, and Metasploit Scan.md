@@ -22,11 +22,11 @@
 ---
 ## Steps
 **Boot both virtual machines:**
-- Kali Linux (attacker machine) - credentials: kali/kali
-- Metasploitable (target machine) - credentials: msfadmin/msfadmin
+- Kali Linux (attacker machine) - credentials: `kali/kali`
+- Metasploitable (target machine) - credentials: `msfadmin/msfadmin`
 
 **Network Discovery:**
-- On Metasploitable VM: **ifconfig** 
+- On Metasploitable VM: `ifconfig`
 <img width="1020" height="463" alt="nmap ip " src="https://github.com/user-attachments/assets/5c5cab0d-5a7a-4ac7-85f6-963072b69f8b" />
 
 - Note the IP address assigned to Metasploitable for targeting which is `192.168.119.133`
@@ -34,32 +34,32 @@
 
 
 **Port Scanning with Nmap**
-- From Kali Linux terminal: type **nmap 192.168.119.133**
+- From Kali Linux terminal: type `nmap 192.168.119.133`
   <img width="1147" height="565" alt="kali port scan" src="https://github.com/user-attachments/assets/d01c6687-5203-4adf-a24f-77766398813d" />
 
-- The scan identified 22 open TCP ports running various services including FTP, SSH, Telnet, SMTP, DNS, HTTP, multiple RPC services, NetBIOS, database services (MySQL, PostgreSQL), VNC, and several legacy Unix services (exec, login, shell).
-- To identify the operating system and check for all possible ports, I ran: nmap –O 192.168.119.133 –p 1-65535 
+- The scan identified 22 open TCP ports running various services including `FTP, SSH, Telnet, SMTP, DNS, HTTP, multiple RPC services, NetBIOS, database services (MySQL, PostgreSQL), VNC, and several legacy Unix services (exec, login, shell).`
+- To identify the operating system and check for all possible ports, I ran: `nmap –O 192.168.119.133 –p 1-65535`
 <img width="1015" height="484" alt="OS scan results" src="https://github.com/user-attachments/assets/3a796026-1b93-4213-af6d-283de0d93a34" />
 
-The scan result showed the Metasploitable is running OS Linux kernel version 2.6.9 to 2.6.33
-The comprehensive scan discovered 5 new ports (3632, 6697, 8787, 47786, 49404, 58122, 59063) running services like distccd and IRCS that the basic scan missed.
+The scan result showed the Metasploitable is running OS Linux kernel version `2.6.9 to 2.6.33`
+The comprehensive scan discovered 5 new ports `(3632, 6697, 8787, 47786, 49404, 58122, 59063)` running services like distccd and IRCS that the basic scan missed.
 
 ---
 
 ### Metasploit Framework Vulnerability Scanning
 **WMAP Web Vulnerability Assessment Process**
 - Launched Metasploit Framework using msfconsole
-- Loaded WMAP module with *load wmap* command
+- Loaded WMAP module with `load wmap` command
 <img width="1015" height="484" alt="OS scan results" src="https://github.com/user-attachments/assets/1d6373a2-3f2c-432b-975e-2af20de0b3b1" />
 
-- Added target site using wmap_sites -a http://192.168.119.133
+- Added target site using `wmap_sites -a http://192.168.119.133`
 - <img width="477" height="69" alt="telling wmap" src="https://github.com/user-attachments/assets/02835f79-8e91-41b9-90db-6d3c93983282" />
 
-- Set scan target with wmap_targets -t http://192.168.119.133
-- Executed vulnerability scan via *wmap_run -e*
+- Set scan target with `wmap_targets -t http://192.168.119.133`
+- Executed vulnerability scan via `wmap_run -e`
   <img width="1134" height="413" alt="scan for vuln" src="https://github.com/user-attachments/assets/22a07e23-92ce-4a34-9f61-8f8569ff236b" />
 
-- Reviewed discovered vulnerabilities using wmap_vulns -l
+- Reviewed discovered vulnerabilities using `wmap_vulns -l`
 <img width="712" height="373" alt="show vulns" src="https://github.com/user-attachments/assets/6209a5c1-1194-475c-bbbb-cf88b8cdfcbf" />
 
 ---
@@ -79,6 +79,7 @@ The comprehensive scan discovered 5 new ports (3632, 6697, 8787, 47786, 49404, 5
 
 ## Conclusion
 - The port scanning and fingerprinting exercises confirmed that Metasploitable exposes multiple open services. The scan successfully identified multiple exposed directories and services, with /phpMyAdmin/ access posing the most significant security risk due to potential database compromise vectors.
+
 
 
 
