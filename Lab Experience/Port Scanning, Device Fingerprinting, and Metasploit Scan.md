@@ -29,7 +29,7 @@
 - On Metasploitable VM: **ifconfig** 
 <img width="1020" height="463" alt="nmap ip " src="https://github.com/user-attachments/assets/5c5cab0d-5a7a-4ac7-85f6-963072b69f8b" />
 
-- Note the IP address assigned to Metasploitable for targeting which is ´192.168.119.133´
+- Note the IP address assigned to Metasploitable for targeting which is `192.168.119.133`
 <img width="1020" height="463" alt="ip address" src="https://github.com/user-attachments/assets/72839402-0e56-4561-9e4d-120b26abda55" />
 
 
@@ -79,5 +79,6 @@ The comprehensive scan discovered 5 new ports (3632, 6697, 8787, 47786, 49404, 5
 
 ## Conclusion
 - The port scanning and fingerprinting exercises confirmed that Metasploitable exposes multiple open services. The scan successfully identified multiple exposed directories and services, with /phpMyAdmin/ access posing the most significant security risk due to potential database compromise vectors.
+
 
 
