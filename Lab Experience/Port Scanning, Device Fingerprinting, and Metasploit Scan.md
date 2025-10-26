@@ -32,6 +32,7 @@
 - Note the IP address assigned to Metasploitable for targeting which is `192.168.119.133`
 <img width="1020" height="463" alt="ip address" src="https://github.com/user-attachments/assets/72839402-0e56-4561-9e4d-120b26abda55" />
 
+---
 
 **Port Scanning with Nmap**
 - From Kali Linux terminal: type `nmap 192.168.119.133`
@@ -82,6 +83,7 @@ The comprehensive scan discovered 5 new ports `(3632, 6697, 8787, 47786, 49404, 
 - OS detection accurately identified the Linux 2.6.x kernel, demonstrating effective device fingerprinting  
 - The vulnerability assessment successfully identified multiple exposed directories and services, with `/phpMyAdmin/` access posing the most significant security risk due to potential database compromise vectors
 - These findings highlight the importance of proper service hardening and directory access controls
+
 
 
 
