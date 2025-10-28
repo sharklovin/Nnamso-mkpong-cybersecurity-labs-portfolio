@@ -63,11 +63,11 @@
 **Part 1: Creating AWS account**
 - Navigate to Aws https://signin.aws.amazon.com/signup?request_type=register
   <img width="1363" height="592" alt="server creation" src="https://github.com/user-attachments/assets/19a50e16-023f-4247-81a8-2d847ec0b79f" />
-
+---
 - Fill in your email address and check your inbox for code.<img width="1328" height="549" alt="passord aws" src="https://github.com/user-attachments/assets/08f10630-4f40-498b-9132-53bb04845f5a" />
-
+---
 - Fill in your verification code.<img width="1030" height="515" alt="aws code" src="https://github.com/user-attachments/assets/3d4b0368-cee2-4620-90a6-c2766707642b" />
-
+---
 - Enter your password..
 - Choose a plan and fill in your payment card details.
 - When successful, you should receive a Welcome email.
@@ -152,6 +152,7 @@ The AWS EC2 instance demonstrated good basic security hygiene, exposing only ess
 - AWS EC2 Documentation: https://docs.aws.amazon.com/ec2  
 
 - Nessus User Guide: https://docs.tenable.com/Nessus
+
 
 
 
