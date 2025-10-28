@@ -34,8 +34,9 @@
 
 
 
-- Download Appropriate Version
-  <img width="1071" height="485" alt="Download Nessus" src="https://github.com/user-attachments/assets/beb31355-4fd1-4ebb-963d-848ac9d19372" />
+- Download Appropriate Version.
+
+ <img width="1071" height="485" alt="Download Nessus" src="https://github.com/user-attachments/assets/beb31355-4fd1-4ebb-963d-848ac9d19372" />
 
 
 ---
@@ -151,6 +152,7 @@ The AWS EC2 instance demonstrated good basic security hygiene, exposing only ess
 - AWS EC2 Documentation: https://docs.aws.amazon.com/ec2  
 
 - Nessus User Guide: https://docs.tenable.com/Nessus
+
 
 
 
