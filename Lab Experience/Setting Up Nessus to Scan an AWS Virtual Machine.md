@@ -22,7 +22,8 @@
 ## Step 1
 **Part 1: Download Nessus Essentials**
 - Navigate to Tenable Nessus Essentials https://www.tenable.com/products/nessus/nessus-essentials
-  <img width="1362" height="617" alt="Tenable" src="https://github.com/user-attachments/assets/0eb67e24-9640-4aaf-a958-126d66a941c9" />
+
+<img width="1362" height="617" alt="Tenable" src="https://github.com/user-attachments/assets/0eb67e24-9640-4aaf-a958-126d66a941c9" />
 
 - Complete the registration form with your details
 - Check your email for the activation code from Tenable
@@ -149,4 +150,5 @@ The AWS EC2 instance demonstrated good basic security hygiene, exposing only ess
 - AWS EC2 Documentation: https://docs.aws.amazon.com/ec2  
 
 - Nessus User Guide: https://docs.tenable.com/Nessus
+
 
