@@ -21,8 +21,7 @@
 ---
 ## Step 1
 **Part 1: Download Nessus Essentials**
-- Navigate to Tenable Nessus Essentials https://www.tenable.com/products/nessus/nessus-essentials
-
+- Navigate to Tenable Nessus Essentials `https://www.tenable.com/products/nessus/nessus-essentials`
 <img width="1362" height="617" alt="Tenable" src="https://github.com/user-attachments/assets/0eb67e24-9640-4aaf-a958-126d66a941c9" />
 
 - Complete the registration form with your details
@@ -52,7 +51,7 @@
    Wait for plugin downloads to complete Wait for plugin downloads to complete. (this can take 10–20 minutes depending on network speed).
 
 - Successful login to Nessus web interface
-- <img width="1090" height="429" alt="login to Nessus" src="https://github.com/user-attachments/assets/d32329f9-86ef-47cf-97ae-84488ef88416" />
+ <img width="1090" height="429" alt="login to Nessus" src="https://github.com/user-attachments/assets/d32329f9-86ef-47cf-97ae-84488ef88416" />
 
 
 ---
@@ -69,7 +68,7 @@
 - Enter your password..
 - Choose a plan and fill in your payment card details.
 - When successful, you should receive a Welcome email.
-- <img width="1106" height="552" alt="completion of creating AWS " src="https://github.com/user-attachments/assets/0fbd514b-1c7d-4ea8-a0d0-ec2e80b87688" />
+ <img width="1106" height="552" alt="completion of creating AWS " src="https://github.com/user-attachments/assets/0fbd514b-1c7d-4ea8-a0d0-ec2e80b87688" />
 
 
 
@@ -150,5 +149,6 @@ The AWS EC2 instance demonstrated good basic security hygiene, exposing only ess
 - AWS EC2 Documentation: https://docs.aws.amazon.com/ec2  
 
 - Nessus User Guide: https://docs.tenable.com/Nessus
+
 
 
