@@ -88,16 +88,16 @@
 - In the AWS Console, go to the EC2 service and click the Launch Instance button.<img width="691" height="672" alt="Console and clicking Ec2" src="https://github.com/user-attachments/assets/aeb2dcc2-3f5f-4de9-a00e-cb44423ff625" />
 <img width="1362" height="649" alt="Ec2" src="https://github.com/user-attachments/assets/6c6ce000-5b8f-43ef-afbf-51ef5657dfbc" />
 
-
+---
 - Create a name<img width="1343" height="601" alt="Created name " src="https://github.com/user-attachments/assets/29db4cb7-263a-4f43-b7b3-8ca758449084" />
 
 - Choose AMI: Ubuntu Server 22.04 LTS (official)
 - <img width="907" height="556" alt="Chose AMI" src="https://github.com/user-attachments/assets/5fa127f1-c2f6-48d8-aee9-95be2cc0d828" />
-
+---
 - Choose Instance type: t2.micro (free-tier)
 - On choosing a Key pair: Create key pair and download the .pem file to VM and keep it safe
 - <img width="1058" height="556" alt="Key Pair" src="https://github.com/user-attachments/assets/57aa0b71-b52d-4306-b17f-2eb59f7352fe" />
-
+---
 - On Networking Settings:
   <img width="894" height="511" alt="firewall" src="https://github.com/user-attachments/assets/5616e2d8-499a-45b4-94a2-e642b43811a6" />
 
@@ -105,7 +105,7 @@
 	- Allow SSH Traffic
 	- Replace the source IP with the public IP of your Nessus VM (for example, YOUR_VM_PUBLIC_IP/32)
 	- Allow HTTP Traffic from the Internet
-	
+---	
 - Launch the instance and wait for state running.
 - In the Instance summary note the IpV4 Public address as that your target ip (EC2)
   <img width="1362" height="565" alt="target ip" src="https://github.com/user-attachments/assets/dbbc9123-5794-464a-8b18-39ca50d3268e" />
@@ -152,6 +152,7 @@ The AWS EC2 instance demonstrated good basic security hygiene, exposing only ess
 - AWS EC2 Documentation: https://docs.aws.amazon.com/ec2  
 
 - Nessus User Guide: https://docs.tenable.com/Nessus
+
 
 
 
