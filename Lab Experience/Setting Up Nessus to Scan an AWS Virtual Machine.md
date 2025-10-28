@@ -23,17 +23,17 @@
 **Part 1: Download Nessus Essentials**
 - Navigate to Tenable Nessus Essentials `https://www.tenable.com/products/nessus/nessus-essentials`
 <img width="1362" height="617" alt="Tenable" src="https://github.com/user-attachments/assets/0eb67e24-9640-4aaf-a958-126d66a941c9" />
-
+---
 - Complete the registration form with your details
 - Check your email for the activation code from Tenable
 - Click on the Download button on the Activation email.
   <img width="1103" height="555" alt="tenable email" src="https://github.com/user-attachments/assets/ae6ef5bc-65c2-413f-ad10-831bf80bd1bd" />
-
+---
 - Click on the View downloads on the Tenable Nessus section.
  <img width="1285" height="511" alt="click on the activation email" src="https://github.com/user-attachments/assets/d4a41815-878c-4e3a-9ade-24ff985bf9b6" />
 
 
-
+---
 - Download Appropriate Version.
 
  <img width="1071" height="485" alt="Download Nessus" src="https://github.com/user-attachments/assets/beb31355-4fd1-4ebb-963d-848ac9d19372" />
@@ -116,23 +116,25 @@
 ## Run a Nessus Scan
 - Open Nessus in your VM: `https://127.0.0.1:8834/#/`
 - Log in to Nessus. <img width="1090" height="429" alt="login to Nessus" src="https://github.com/user-attachments/assets/c7ce87e3-b9cd-4fc0-a1b9-7547f1d37658" />
-
+---
 - From the main navigation, access the Scans section, create a new scan, and choose the Basic Network Scan template
   <img width="1097" height="473" alt="My scans and create new scan" src="https://github.com/user-attachments/assets/394606f8-ec9a-40f9-964c-c1c9c552a6f3" />
   <img width="889" height="381" alt="Basic network scan" src="https://github.com/user-attachments/assets/7e7abaec-7ef9-4779-9cb3-e8b4bcfefbdc" />
-
+---
 
 - Name: `AWS Target`, `Targets: 16.171.16.0`
  <img width="1089" height="477" alt="Basic scan config" src="https://github.com/user-attachments/assets/842dad6e-96b8-4f32-b4bf-fb84a11272a2" />
-
+---
 - Click Launch, then monitor progress in the ‘Scans’ tab.
  <img width="1300" height="679" alt="Scan Running" src="https://github.com/user-attachments/assets/e0a39616-f745-4e3c-83d0-f537a7caac60" />
-
+---
 - Once complete, export the report as HTML or PDF for documentation. 
 <img width="1298" height="489" alt="Scan Completed" src="https://github.com/user-attachments/assets/4c770e34-7099-41be-a66b-bd8ffe2a2cd1" />
+---
 
 ## Conclusion
 The AWS EC2 instance demonstrated good basic security hygiene, exposing only essential services. 
+
 <img width="1291" height="633" alt="Scan result 303" src="https://github.com/user-attachments/assets/99f703b0-2715-4c1a-bf70-42841c56c2b5" />
 <img width="1294" height="696" alt="Scan Results" src="https://github.com/user-attachments/assets/e7578439-5804-44f1-afae-fbe300969ede" />
 <img width="1295" height="690" alt="Scan result 101 - Copy" src="https://github.com/user-attachments/assets/fed68b52-4306-4de0-8a9b-7005ddd05421" />
@@ -140,6 +142,7 @@ The AWS EC2 instance demonstrated good basic security hygiene, exposing only ess
 <img width="1302" height="654" alt="Scan result 202 - Copy" src="https://github.com/user-attachments/assets/b07f88e3-26df-46e1-81fd-f005476c4f25" />
 
 
+---
 **Overall Security Posture:** Satisfactory and no immediate critical threats identified.
 
 ## Lessons Learned
@@ -152,6 +155,7 @@ The AWS EC2 instance demonstrated good basic security hygiene, exposing only ess
 - AWS EC2 Documentation: https://docs.aws.amazon.com/ec2  
 
 - Nessus User Guide: https://docs.tenable.com/Nessus
+
 
 
 
