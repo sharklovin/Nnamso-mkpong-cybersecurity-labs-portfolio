@@ -4,6 +4,18 @@
 **Author:** Nnamso Mkpong
 
 ---
+## Scope
+This lab focuses on identifying, assessing, and managing potential risks affecting the school’s IT infrastructure. The objective is to apply risk management principles in a real-world environment responsibly and ethically.
+
+## Authorization
+Permission was obtained from the school administration of Marri Gold Internation to use their environment as a learning example. The assessment was strictly educational and conducted with consent, ensuring no interference with school operations.
+
+## Rules of Engagement (RoE)
+- No intrusive or disruptive testing was performed.
+- Only observable processes and non-sensitive information were used.
+- The exercise followed responsible disclosure and ethical cybersecurity practices.
+- Findings were documented for academic and educational purposes only.
+
 # Objective
 - To conduct a comprehensive risk assessment and develop a risk management framework for an educational institution's IT infrastructure, demonstrating practical application of NIST risk management principles in a real world scenario, which is my mom's IT LAB.
 
@@ -84,5 +96,6 @@ Risk:  A student accidentally downloads malware or plugs in an infected USB driv
 ---
 
 The most appropriate strategy would be risk mitigation and transference.
+
 
 
