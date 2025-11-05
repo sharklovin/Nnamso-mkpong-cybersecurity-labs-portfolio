@@ -1,11 +1,11 @@
-## Risk Identification, Assessment and Management
+## Risk Identification, Assessment, and Management
 **Category:** CySA+  
 **Date:** 05/11/2025 
 **Author:** Nnamso Mkpong
 
 ---
 # Objective
-- To conduct a comprehensive risk assessment and develop a risk management framework for an educational institution's IT infrastructure, demonstrating practical application of NIST risk management principles in a real world scenario which is my mom's IT LAB.
+- To conduct a comprehensive risk assessment and develop a risk management framework for an educational institution's IT infrastructure, demonstrating practical application of NIST risk management principles in a real world scenario, which is my mom's IT LAB.
 
 ---
 
@@ -68,7 +68,7 @@ Risk:  A student accidentally downloads malware or plugs in an infected USB driv
 
 - Strategy: Risk Mitigation
 - Application:
-1. Installing of next generation antivirus, disabling USB boot in BIOS, block all executable files from USB drives
+1. Installing next generation antivirus, disabling USB boot in BIOS, and blocking all executable files from USB drives
 2. Implement system imaging for rapid recovery and also student digital literacy training
 3. Physical: Always use USB port locks for younger students
 ---
@@ -81,7 +81,8 @@ Risk:  A student accidentally downloads malware or plugs in an infected USB driv
 
 ---
 - Strategy: Risk transference	
-- Apllication: Purchase insurance or outsource data hosting to a secure cloud provider.
+- Application: Purchase insurance or outsource data hosting to a secure cloud provider.
 
 ---
-The most Appropriate and suitable strategy would be risk mitigation and transference.
+
+The most appropriate strategy would be risk mitigation and transference.
