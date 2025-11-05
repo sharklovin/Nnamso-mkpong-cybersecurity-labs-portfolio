@@ -20,8 +20,6 @@
 
 - **Inappropriate Content Access:** Students bypass filters to access violent, explicit, or otherwise harmful online content.
 
-- **Data Breach:** Unauthorized access to sensitive student data such as grades, personal information that are stored on a local server.
-
 - **Network Outage:** The internet connection or local network fails, rendering the lab unusable for online activities.
 
 - **Damage to Equipment:** Accidental or intentional physical damage to computers, keyboards, or monitors by students.
@@ -86,4 +84,5 @@ Risk:  A student accidentally downloads malware or plugs in an infected USB driv
 ---
 
 The most appropriate strategy would be risk mitigation and transference.
+
 
