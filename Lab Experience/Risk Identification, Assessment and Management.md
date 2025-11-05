@@ -1,6 +1,7 @@
 ## Risk Identification, Assessment, and Management
 **Category:** CySA+  
 **Date:** 05/11/2025 
+
 **Author:** Nnamso Mkpong
 
 ---
@@ -96,6 +97,7 @@ Risk:  A student accidentally downloads malware or plugs in an infected USB driv
 ---
 
 The most appropriate strategy would be risk mitigation and transference.
+
 
 
 
