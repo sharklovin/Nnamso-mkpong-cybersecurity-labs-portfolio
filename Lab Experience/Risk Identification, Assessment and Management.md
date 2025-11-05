@@ -14,19 +14,19 @@
 
 # Identified Risks:
 
-- Ransomware/Malware Infection: A student accidentally downloads malware or plugs in an infected USB drive, destroying lab computers.
+- **Ransomware/Malware Infection:** A student accidentally downloads malware or plugs in an infected USB drive, destroying lab computers.
 
-- Hardware Failure/Theft: Theft of expensive computers, projectors, or other equipment. Or a critical component like the server or network switch fails.
+- **Hardware Failure/Theft:** Theft of expensive computers, projectors, or other equipment. Or a critical component like the server or network switch fails.
 
-- Inappropriate Content Access: Students bypass filters to access violent, explicit, or otherwise harmful online content.
+- **Inappropriate Content Access:** Students bypass filters to access violent, explicit, or otherwise harmful online content.
 
-- Data Breach: Unauthorized access to sensitive student data such as grades, personal information that are stored on a local server.
+- **Data Breach:** Unauthorized access to sensitive student data such as grades, personal information that are stored on a local server.
 
-- Network Outage: The internet connection or local network fails, rendering the lab unusable for online activities.
+- **Network Outage:** The internet connection or local network fails, rendering the lab unusable for online activities.
 
-- Damage to Equipment: Accidental or intentional physical damage to computers, keyboards, or monitors by students.
+- **Damage to Equipment:** Accidental or intentional physical damage to computers, keyboards, or monitors by students.
 
-- Power Surge/Outage: A power fluctuation or outage damages hardware or corrupts data.
+- **Power Surge/Outage:** A power fluctuation or outage damages hardware or corrupts data.
 
 ---
 
@@ -86,3 +86,4 @@ Risk:  A student accidentally downloads malware or plugs in an infected USB driv
 ---
 
 The most appropriate strategy would be risk mitigation and transference.
+
