@@ -23,23 +23,26 @@ This lab focuses on analyzing the severity of a denial-of-service incident affec
 - **Functional Impact:** High
 - **Justification:** The primary business function which is the online product sales is completely disrupted. Customers cannot make purchases, halting core operations and damaging the company’s reputation.
 
-
+---
 
 - **Economic Impact:** High
 - **Justification:** The organization faces at least $2 million in losses per day, with potential long-term effects on customer trust and brand value. This qualifies as a severe economic impact.
 
 
+---
+
+- **Recoverability Effort:** Extended
+- **Justification:** The attack originates from multiple distributed sources, overwhelming in-house mitigation capabilities. Also with the need for an external partner indicates that the recovery process will not be quick or simple. 
+
+---
 
 
--**Recoverability Effort:** Extended
--**Justification:** The attack originates from multiple distributed sources, overwhelming in-house mitigation capabilities. Also with the need for an external partner indicates that the recovery process will not be quick or simple. 
 
+- **Information Impact:** Low
+- **Justification:** There is no evidence of data theft or alteration as this is a pure availability attack targeting service uptime rather than data confidentiality or integrity. So at this point there is no customer data, financial information, or proprietary data has been compromised.
 
+---
 
-
-
--**Information Impact:** Low
--**Justification:** There is no evidence of data theft or alteration as this is a pure availability attack targeting service uptime rather than data confidentiality or integrity. So at this point there is no customer data, financial information, or proprietary data has been compromised.
 
 ## Overall Incident Severity
 
@@ -62,5 +65,6 @@ This incident has a severe functional and financial impact on the organization, 
 
 
 - Conduct post-incident review and update business continuity strategies.
+
 
 
