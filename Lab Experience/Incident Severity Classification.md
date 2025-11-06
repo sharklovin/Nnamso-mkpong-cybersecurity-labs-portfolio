@@ -11,7 +11,7 @@ You are the leader of a cybersecurity incident response team for a large company
 The attack is preventing customers from making purchases, causing an estimated $2 million in daily revenue loss.
 Internal mitigation efforts have been exhausted, and external assistance is being considered.
 
----
+
 
 ## Scope
 This lab focuses on analyzing the severity of a denial-of-service incident affecting the organization’s online sales systems.  No active testing or data collection was performed.
@@ -53,3 +53,4 @@ This incident has a severe functional and financial impact on the organization, 
 
 
 - Conduct post-incident review and update business continuity strategies.
+
