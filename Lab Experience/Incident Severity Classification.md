@@ -48,7 +48,6 @@ This lab focuses on analyzing the severity of a denial-of-service incident affec
 
 **Classification:** High / Critical Severity Incident
 
----
 
 
 ## Reason Behind the Overall Incident Severity
@@ -65,6 +64,7 @@ This incident has a severe functional and financial impact on the organization, 
 
 
 - Conduct post-incident review and update business continuity strategies.
+
 
 
 
