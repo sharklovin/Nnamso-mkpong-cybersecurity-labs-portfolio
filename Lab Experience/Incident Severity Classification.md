@@ -1,6 +1,7 @@
 ## Incident Severity Classification
 **Category:** CySA+  
 **Date:** 06/11/2025 
+
 **Author:** Nnamso Mkpong
 
 
@@ -49,5 +50,6 @@ This incident has a severe functional and financial impact on the organization, 
 - Engage a DDoS mitigation service provider such as `Cloudflare, Akamai, AWS Shield `
 
 - Develop a DDoS response playbook and integrate it into the organization’s Incident Response Plan (IRP).
+
 
 - Conduct post-incident review and update business continuity strategies.
