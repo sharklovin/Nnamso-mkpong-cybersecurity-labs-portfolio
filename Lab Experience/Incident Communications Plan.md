@@ -46,7 +46,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:**CSIRT Lead
 
 
---
+
 
 **Audience / Stakeholder:** IT & Database Admins
 **Purpose of Communication:** Provide system logs, access records, and assist in containment
@@ -55,7 +55,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:** Incident Handler
 
 
---
+
 
 **Audience / Stakeholder:** Executive Management (CISO, CEO)
 **Purpose of Communication:** Report incident severity, impact, and mitigation plan
@@ -64,7 +64,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:** CSIRT Lead
 
 
---
+
 
 **Audience / Stakeholder:** Legal & Compliance Team
 **Purpose of Communication:** Assess breach notification requirements and regulatory exposure
@@ -73,7 +73,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:** Legal Liaison
 
 
---
+
 
 **Audience / Stakeholder:** Public Relations (PR)
 **Purpose of Communication:** Prepare public statement and handle media inquiries
@@ -82,7 +82,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:** Communications Director
 
 
---
+
 
 **Audience / Stakeholder:** Customer Service / Support
 **Purpose of Communication:** Equip frontline staff with approved responses to customer inquiries
@@ -91,7 +91,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:** PR & Customer Support Lead
 
 
---
+
 
 **Audience / Stakeholder:** Affected Customers (if confirmed)
 **Purpose of Communication:** Notify about data exposure, mitigation steps, and contact info
@@ -100,7 +100,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:** PR & Legal Team
 
 
---
+
 
 **Audience / Stakeholder:** Law Enforcement / Regulatory Authorities
 **Purpose of Communication:** Fulfill breach reporting obligations and assist investigation
@@ -109,7 +109,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:** Legal Liaison
 
 
---
+
 
 ## Communication Triggers
 
@@ -120,7 +120,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 - if containment achieved, Update executives and IT management with a post-containment summary.
 
 
---
+
 
 ## Communication Strategy for SQL Injection Incident
 
@@ -129,13 +129,15 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 - **Internal Communication (CSIRT to Executives):**
 - Purpose: To provide a concise, factual update to leadership for business and legal decision-making.
 - Medium: This communication is delivered via a high-priority email for speed and record-keeping.
-add pics
+<img width="990" height="467" alt="csirt email" src="https://github.com/user-attachments/assets/e01d56c2-83a9-4694-9c12-400976f5c809" />
+
 ---
 
 **External Notification (Customer Notification):**
 - Purpose: To inform customers transparently while minimizing panic and protecting the company's reputation.
 - Medium: Website or Social Media channels
-add pics
+<img width="2400" height="2400" alt="Creating mock up FOR MY LAB" src="https://github.com/user-attachments/assets/3c374871-33fc-459d-bbf2-07e2cacb918c" />
+
 
 ---
 
@@ -153,3 +155,4 @@ add pics
 ## Summary
 
 This communication plan establishes a structured framework to ensure all critical stakeholders are informed promptly with accurate and consistent information. By balancing necessary transparency with the protection of sensitive data, it enables the organization to effectively manage both the technical response and reputational impact of the SQL injection incident.
+
