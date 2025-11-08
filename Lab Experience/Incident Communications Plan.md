@@ -40,15 +40,20 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 ## Communication Flow
 
 **Audience / Stakeholder:** Internal CSIRT Members
+
 **Purpose of Communication:** Coordinate investigation and response actions
+
 **Method of Commuincation:** Secure internal channel such as Teams or Slack
-**Timing / Frequency:**Continuous (real-time)
-**Responsible Party:**CSIRT Lead
 
+**Timing / Frequency:** Continuous (real-time)
 
+**Responsible Party:** CSIRT Lead
+
+---
 
 
 **Audience / Stakeholder:** IT & Database Admins
+
 
 **Purpose of Communication:** Provide system logs, access records, and assist in containment
 
@@ -58,7 +63,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 
 **Responsible Party:** Incident Handler
 
-
+---
 
 
 **Audience / Stakeholder:** Executive Management (CISO, CEO)
@@ -71,7 +76,7 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 
 **Responsible Party:** CSIRT Lead
 
-
+---
 
 
 **Audience / Stakeholder:** Legal & Compliance Team
@@ -85,42 +90,57 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 **Responsible Party:** Legal Liaison
 
 
-
+---
 
 **Audience / Stakeholder:** Public Relations (PR)
+
 **Purpose of Communication:** Prepare public statement and handle media inquiries
+
 **Method of Commuincation:** Briefing with approved talking points
+
 **Timing / Frequency:** Within 4–6 hours
+
 **Responsible Party:** Communications Director
 
-
+---
 
 
 **Audience / Stakeholder:** Customer Service / Support
+
 **Purpose of Communication:** Equip frontline staff with approved responses to customer inquiries
+
 **Method of Commuincation:** Internal memo / FAQ
+
 **Timing / Frequency:** Within 8 hours
+
 **Responsible Party:** PR & Customer Support Lead
 
-
-
+---
 
 **Audience / Stakeholder:** Affected Customers (if confirmed)
+
 **Purpose of Communication:** Notify about data exposure, mitigation steps, and contact info
+
 **Method of Commuincation:** Email / Website notice
+
 **Timing / Frequency:** Within 24–48 hours after legal review
+
 **Responsible Party:** PR & Legal Team
 
 
-
+---
 
 **Audience / Stakeholder:** Law Enforcement / Regulatory Authorities
+
 **Purpose of Communication:** Fulfill breach reporting obligations and assist investigation
+
 **Method of Commuincation:** Formal notification 
+
 **Timing / Frequency:** Within 72 hours depending on jurisdiction
+
 **Responsible Party:** Legal Liaison
 
-
+---
 
 
 ## Communication Triggers
@@ -167,5 +187,6 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 ## Summary
 
 This communication plan establishes a structured framework to ensure all critical stakeholders are informed promptly with accurate and consistent information. By balancing necessary transparency with the protection of sensitive data, it enables the organization to effectively manage both the technical response and reputational impact of the SQL injection incident.
+
 
 
