@@ -49,27 +49,39 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 
 
 **Audience / Stakeholder:** IT & Database Admins
+
 **Purpose of Communication:** Provide system logs, access records, and assist in containment
+
 **Method of Commuincation:** Email / Teams meeting
+
 **Timing / Frequency:** Within first hour)
+
 **Responsible Party:** Incident Handler
 
 
 
 
 **Audience / Stakeholder:** Executive Management (CISO, CEO)
+
 **Purpose of Communication:** Report incident severity, impact, and mitigation plan
+
 **Method of Commuincation:** Executive briefing
+
 **Timing / Frequency:** Initial report within 1 hour and updates every 4 hours
+
 **Responsible Party:** CSIRT Lead
 
 
 
 
 **Audience / Stakeholder:** Legal & Compliance Team
+
 **Purpose of Communication:** Assess breach notification requirements and regulatory exposure
+
 **Method of Commuincation:** Email / Meeting
+
 **Timing / Frequency:** Within 2 hours
+
 **Responsible Party:** Legal Liaison
 
 
@@ -155,4 +167,5 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 ## Summary
 
 This communication plan establishes a structured framework to ensure all critical stakeholders are informed promptly with accurate and consistent information. By balancing necessary transparency with the protection of sensitive data, it enables the organization to effectively manage both the technical response and reputational impact of the SQL injection incident.
+
 
