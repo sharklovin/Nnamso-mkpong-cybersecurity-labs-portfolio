@@ -184,9 +184,22 @@ This communication plan defines who needs to be informed, when, and how, to ensu
 - Release a public transparency report, if appropriate.
 
 
+## Supporting Materials & Lab Demonstration
+As part of this incident response exercise, I created practical communication artifacts to demonstrate the immediate application of this plan:
+
+- **Executive Email Template:** A high-priority email drafted for immediate communication with C-suite leadership upon confirmation of the incident, following the internal communication strategy outlined in this plan.
+
+- **Customer Notification Mock-up:** A professionally designed web notification to be deployed on the company's official channels, embodying the principles of transparency and reassurance required for external stakeholder communication.
+
+These ready-to-use templates ensure that when a trigger condition is met, the organizational response is both instantaneous and professionally crafted, preserving critical time during a crisis.
+
+
+--
+
 ## Summary
 
 This communication plan establishes a structured framework to ensure all critical stakeholders are informed promptly with accurate and consistent information. By balancing necessary transparency with the protection of sensitive data, it enables the organization to effectively manage both the technical response and reputational impact of the SQL injection incident.
+
 
 
 
