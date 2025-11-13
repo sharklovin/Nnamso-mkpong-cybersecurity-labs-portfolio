@@ -100,6 +100,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 - Selected one major family to analyze which was `G3nasom`
 
 **Key Observations:**
+
 <img width="677" height="714" alt="FEATURES OF F3" src="https://github.com/user-attachments/assets/4b809317-d8e4-4c8c-89c5-486112dcd6e2" />
 
 - The malware page detailed its technical features, such as:
@@ -128,6 +129,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
 
 
