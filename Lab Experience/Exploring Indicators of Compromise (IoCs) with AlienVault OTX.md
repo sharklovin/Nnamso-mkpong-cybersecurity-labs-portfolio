@@ -34,10 +34,11 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 ---
 
+**Opened the pulse titled “CiscoASA → Attacker IPs – Australia – November 2025.”**
 
 <img width="1365" height="678" alt="SELECT CISCO" src="https://github.com/user-attachments/assets/5b4dc024-7dd7-49f9-8f32-b0f5faa5dc3f" />
 
-- Opened the pulse titled “CiscoASA → Attacker IPs – Australia – November 2025.”
+
 <img width="1356" height="689" alt="cisco asa1" src="https://github.com/user-attachments/assets/04ad86ee-97e3-462b-ba7c-0774e45c0511" />
 <img width="1365" height="520" alt="cisco asa2" src="https://github.com/user-attachments/assets/b8706fb4-f642-4d71-8001-88d0d7700589" />
 
@@ -119,6 +120,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
 
 
