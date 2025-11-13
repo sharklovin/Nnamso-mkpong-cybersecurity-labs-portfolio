@@ -17,7 +17,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 `AlienVault OTX (Open Threat Exchange)`
 
 ## Procedures and Observations
-## Step 1: Account Setup and Dashboard Familiarization**
+## Step 1: Account Setup and Dashboard Familiarization
 <img width="1357" height="611" alt="Logging in Alien Vault" src="https://github.com/user-attachments/assets/35076d4a-1165-4b55-82ba-3afc19577482" />
 
 - Created an account on `https://otx.alienvault.com` and logged in.
@@ -26,7 +26,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 ---
 
-## Step 2: Analyzing Community Pulses**
+## Step 2: Analyzing Community Pulses
 <img width="1358" height="605" alt="SELECT BROWSE" src="https://github.com/user-attachments/assets/14fafb9c-cef1-4f24-bc47-54357c3b2732" />
 
 - Navigated to the “Browse” section to explore publicly available pulses.
@@ -115,6 +115,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
 
 
