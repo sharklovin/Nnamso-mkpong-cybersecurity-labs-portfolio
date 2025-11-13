@@ -22,7 +22,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 - Created an account on `https://otx.alienvault.com` and logged in.
 
-- Reviewed the main dashboard, which summarizes global threat activity and community-shared data known as pulses.
+
 
 ---
 
@@ -136,6 +136,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
 
 
