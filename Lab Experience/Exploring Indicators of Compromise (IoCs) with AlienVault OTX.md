@@ -101,10 +101,8 @@ This lab provided a hands-on look at how security analysts can use shared threat
 <img width="692" height="665" alt="SELECTING G3" src="https://github.com/user-attachments/assets/c666b0ce-c29e-481a-acb5-93b3b85cfd83" />
 
 
-
+---
 **Key Observations:**
-
-<img width="677" height="714" alt="FEATURES OF F3" src="https://github.com/user-attachments/assets/4b809317-d8e4-4c8c-89c5-486112dcd6e2" />
 
 - The malware page detailed its technical features, such as:
 
@@ -113,10 +111,16 @@ This lab provided a hands-on look at how security analysts can use shared threat
 - “Contains PE overlay”
 
 - “Accesses Recycle Bin”
+- 
+<img width="677" height="714" alt="FEATURES OF F3" src="https://github.com/user-attachments/assets/4b809317-d8e4-4c8c-89c5-486112dcd6e2" />
 
-<img width="1363" height="716" alt="G3 RELATED PULSES" src="https://github.com/user-attachments/assets/de7e9a68-b7d3-4ea5-bc7e-2b3962f415ec" />
+---
 
 - The Related Pulses section showed other analysts’ research tied to the same malware family.
+  
+<img width="1363" height="716" alt="G3 RELATED PULSES" src="https://github.com/user-attachments/assets/de7e9a68-b7d3-4ea5-bc7e-2b3962f415ec" />
+
+---
 
 **Analysis:**
 
@@ -126,12 +130,13 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 **Practical use:** These behaviors can inform SIEM queries, improve EDR detection logic, or guide proactive threat hunting.
 
-
+---
 
 ## Conclusion
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
 
 
