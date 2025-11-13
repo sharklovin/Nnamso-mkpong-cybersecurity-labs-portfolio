@@ -93,11 +93,14 @@ This lab provided a hands-on look at how security analysts can use shared threat
 ---
 
 ## Step 4: Examining Malware Families
-<img width="692" height="665" alt="SELECTING G3" src="https://github.com/user-attachments/assets/c666b0ce-c29e-481a-acb5-93b3b85cfd83" />
 
 - Explored the malware visualization dashboard showing related families.
 
 - Selected one major family to analyze which was `G3nasom`
+
+<img width="692" height="665" alt="SELECTING G3" src="https://github.com/user-attachments/assets/c666b0ce-c29e-481a-acb5-93b3b85cfd83" />
+
+
 
 **Key Observations:**
 
@@ -129,6 +132,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
 
 
