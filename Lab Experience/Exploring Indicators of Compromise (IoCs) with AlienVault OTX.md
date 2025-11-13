@@ -31,6 +31,9 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 - Navigated to the “Browse” section to explore publicly available pulses.
 
+---
+
+
 <img width="1365" height="678" alt="SELECT CISCO" src="https://github.com/user-attachments/assets/5b4dc024-7dd7-49f9-8f32-b0f5faa5dc3f" />
 
 - Opened the pulse titled “CiscoASA → Attacker IPs – Australia – November 2025.”
@@ -115,6 +118,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
 
 
