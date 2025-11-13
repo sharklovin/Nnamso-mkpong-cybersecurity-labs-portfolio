@@ -1,4 +1,4 @@
-<img width="1363" height="678" alt="LOMBARD DOMAIN 2" src="https://github.com/user-attachments/assets/26c62fd8-f99c-4616-8635-dc6858c983d4" /><img width="1365" height="666" alt="LOMBARD DOMAIN 3" src="https://github.com/user-attachments/assets/6afdb1b0-22fe-459e-bcf5-7bdfe209534a" /><img width="1363" height="577" alt="LOMBARD DOMAIN 4" src="https://github.com/user-attachments/assets/ad1877a8-a3a5-4795-992f-3beed31fd3fe" /><img width="1364" height="510" alt="LOMBARD DOMAIN 5" src="https://github.com/user-attachments/assets/8423dc5e-ca9d-425a-992a-e9d72accbf70" /><img width="1358" height="605" alt="SELECT BROWSE" src="https://github.com/user-attachments/assets/dd74e0a6-afb2-48c0-9e56-977c8a431d03" />## Exploring Indicators of Compromise (IoCs) with AlienVault OTX
+## Exploring Indicators of Compromise (IoCs) with AlienVault OTX
 
 **Category:** CySA+  
 **Date:** 06/11/2025 
@@ -113,3 +113,4 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
