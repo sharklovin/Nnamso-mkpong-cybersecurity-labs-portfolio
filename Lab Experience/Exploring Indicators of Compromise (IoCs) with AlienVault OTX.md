@@ -57,21 +57,27 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 - Assessing author credibility: Reputation can be judged based on the author’s organization, level of detail in their submissions, number of followers, and overall community reputation.
 
+---
+
 ## Step 3: Investigating Indicators of Compromise (IoCs)
+
+**Opened the “Indicators” tab to explore different IoC types.**
+
 <img width="1365" height="609" alt="i went back to browse and selected Indicators" src="https://github.com/user-attachments/assets/9d48e07f-2908-42c5-9fab-8b9122d09a9a" />
 
-- Opened the “Indicators” tab to explore different IoC types.
+---
+**Domain explored: lombard-ulushin.kz — analysis revealed its IP address, hosting country (Kazakhstan), name servers, and HTTP scan data.**
 
 <img width="1365" height="648" alt="Selected DOmain in Indicators" src="https://github.com/user-attachments/assets/8a7c6026-edd3-4d0c-9e5e-b848405e8304" />
 
-- Domain explored: lombard-ulushin.kz — analysis revealed its IP address, hosting country (Kazakhstan), name servers, and HTTP scan data.
+---
+
+**IPv4 explored: 141.98.83.188 — associated with ASN AS209588, and tagged with keywords like tpot and honeypot.**
 
 <img width="1364" height="658" alt="LOMBARD DOMAIN 1" src="https://github.com/user-attachments/assets/2cde9d78-4113-4e47-a809-57d64db4eade" /><img width="1363" height="678" alt="LOMBARD DOMAIN 2" src="https://github.com/user-attachments/assets/62f36045-cecf-450d-b2b6-00cc100d5562" /><img width="1365" height="666" alt="LOMBARD DOMAIN 3" src="https://github.com/user-attachments/assets/b3f1cae2-3fcd-4ebe-a288-6e44c083eb18" /><img width="1363" height="577" alt="LOMBARD DOMAIN 4" src="https://github.com/user-attachments/assets/20dfc392-8fb1-4228-8c96-c95633aa28e6" /><img width="1364" height="510" alt="LOMBARD DOMAIN 5" src="https://github.com/user-attachments/assets/00b9c976-b134-4874-80ea-ba51c0e48512" /><img width="1360" height="663" alt="LOMBARD 6" src="https://github.com/user-attachments/assets/5073de45-b770-4a91-afd9-08f01036b0cf" />
 
 
 
-
-- IPv4 explored: 141.98.83.188 — associated with ASN AS209588, and tagged with keywords like tpot and honeypot.
 
 **Key Insights:**
 *Useful IoC types:*
@@ -83,6 +89,8 @@ This lab provided a hands-on look at how security analysts can use shared threat
 - Email: Helps filter phishing attempts and malicious senders.
 
 - Additional useful info: Historical data (first/last seen), linked malware families, and confidence ratings from multiple intelligence sources help prioritize real threats.
+
+---
 
 ## Step 4: Examining Malware Families
 <img width="692" height="665" alt="SELECTING G3" src="https://github.com/user-attachments/assets/c666b0ce-c29e-481a-acb5-93b3b85cfd83" />
@@ -120,6 +128,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
 
 
