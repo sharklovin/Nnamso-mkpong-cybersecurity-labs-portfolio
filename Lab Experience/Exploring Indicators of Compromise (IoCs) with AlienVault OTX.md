@@ -9,7 +9,7 @@
 The goal of this lab was to gain practical experience using AlienVault’s Open Threat Exchange (OTX), a community-driven threat intelligence platform. The exercise focused on understanding pulses, indicators of compromise (IoCs), and malware families, and how these can strengthen an organization’s overall security posture.
 
 
-##Overview
+## Overview
 This lab provided a hands-on look at how security analysts can use shared threat intelligence for proactive defense. By exploring OTX, I learned how to analyze community “pulses,” investigate IoCs, and study malware behaviors just as a real-world SOC analyst would when tracking and mitigating threats.
 
 
@@ -17,7 +17,7 @@ This lab provided a hands-on look at how security analysts can use shared threat
 `AlienVault OTX (Open Threat Exchange)`
 
 ## Procedures and Observations
-##Step 1: Account Setup and Dashboard Familiarization**
+## Step 1: Account Setup and Dashboard Familiarization**
 <img width="1357" height="611" alt="Logging in Alien Vault" src="https://github.com/user-attachments/assets/35076d4a-1165-4b55-82ba-3afc19577482" />
 
 - Created an account on `https://otx.alienvault.com` and logged in.
@@ -113,4 +113,5 @@ This lab provided a hands-on look at how security analysts can use shared threat
 
 
 This lab provided practical experience in leveraging an open-source threat intelligence platform. By learning how to navigate OTX, interpret IoCs, and analyze malware characteristics, I gained a clearer understanding of how threat intelligence supports modern cybersecurity operations. The exercise demonstrated how community-shared data can turn raw indicators into actionable defense strategies.
+
 
