@@ -1,4 +1,4 @@
-<img width="1215" height="716" alt="grep" src="https://github.com/user-attachments/assets/03223a95-b566-4509-8981-83688e2859e1" />## SSH Log Analysis Lab Exercise: Identifying Suspicious Login Activity
+## SSH Log Analysis Lab Exercise: Identifying Suspicious Login Activity
 
 **Category:** CySA+  
 **Date:** 06/11/2025 
@@ -204,4 +204,5 @@ The investigation highlighted the importance of regular security monitoring, pro
 - Internal lateral movement is a key indicator of successful compromise
 - Regular log analysis is crucial for early breach detection
 - Comprehensive security requires both prevention and detection mechanisms
+
 
