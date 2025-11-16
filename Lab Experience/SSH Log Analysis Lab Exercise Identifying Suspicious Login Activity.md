@@ -5,7 +5,7 @@
 **Author:** Nnamso Mkpong
 
 ## Overview 
-- In this security lab exercise, I performed a structured investigation of SSH authentication logs to identify suspicious login activity. The objective was to detect unauthorized access attempts, determine which authentications were successful, and understand attacker behaviour using basic Linux command-line tools.
+In this security lab exercise, I performed a structured investigation of SSH authentication logs to identify suspicious login activity. The objective was to detect unauthorized access attempts, determine which authentications were successful, and understand attacker behaviour using basic Linux command-line tools.
 
 ## Exercise Objectives
 - Download and analyze authentication logs from Elastic’s security examples
@@ -31,18 +31,25 @@
 **Step 2: Locating the Exercise Files**
 Within the repository, I found the suspicious_login_activity folder containing:
 `The auth.log data file for analysis`
+
 <img width="1207" height="703" alt="Github start" src="https://github.com/user-attachments/assets/37f1b351-9299-46cd-a005-2a655383e0f8" />
+
 <img width="1203" height="705" alt="suspicious login activity" src="https://github.com/user-attachments/assets/8ae23ac6-306a-4046-99ac-ed27b69efe8b" />
+
 <img width="1219" height="695" alt="navigate to the data folder" src="https://github.com/user-attachments/assets/eac6f47c-f6f6-44d7-b14d-fe82c60cddfd" />
 
+---
 
 **Step 3: Downloading the Log File**
 - I downloaded the auth.log file from the data directory and saved it to my local Ubuntu system's Downloads folder for analysis.
+  
 <img width="1217" height="700" alt="opening and download auth log" src="https://github.com/user-attachments/assets/a338f026-57d5-4618-838d-d8bde6481f08" />
 
+---
 
 **Step 4: Searching for Connection Patterns:**
 - I searched for connection patterns: `grep -i "connection" auth.log`
+
 <img width="1215" height="716" alt="grep" src="https://github.com/user-attachments/assets/59eb3ea2-29af-481d-8db8-d325a49750e2" />
 <img width="1224" height="721" alt="port scanning uncertainty" src="https://github.com/user-attachments/assets/110aba53-44a7-4051-ac5f-616a455ebc5c" />
 
@@ -59,7 +66,10 @@ Within the repository, I found the suspicious_login_activity folder containing:
 
 * To determine what happened, a check for a repeative attacker with the ip `85.245.107.41` was conducted to determined what exaclty happened : `grep -A 3 "85.245.107.41" auth.log | grep -E "Accepted|Failed|authentication"`
 
+
+
 <img width="1218" height="714" alt="Check what happened after 8524510741 connections" src="https://github.com/user-attachments/assets/70d8c665-d91f-48da-8dd7-571fa5ae901d" />
+
 
 - Repeated successful public-key logins to the ubuntu account
 These appear frequently over multiple days, always from the same IP. The pattern suggests that whoever controls 85.245.107.41 has a valid SSH key for the ubuntu user and is logging in consistently.
@@ -204,5 +214,6 @@ The investigation highlighted the importance of regular security monitoring, pro
 - Internal lateral movement is a key indicator of successful compromise
 - Regular log analysis is crucial for early breach detection
 - Comprehensive security requires both prevention and detection mechanisms
+
 
 
