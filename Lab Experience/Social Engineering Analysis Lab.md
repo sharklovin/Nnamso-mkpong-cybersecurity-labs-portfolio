@@ -1,7 +1,9 @@
 ## Social Engineering Analysis Lab
 
 **Category:** SOC awareness
+
 **Date:** 02/12/2026
+
 **Author:** Nnamso Mkpong
 
 
@@ -21,11 +23,17 @@ Due to multiple suspicious characteristics, the user reported the email to the s
 The investigation followed a structured SOC workflow:
 
 • Evidence collection and review
+
 • Indicator of compromise extraction
+
 • Behavioral threat analysis
+
 • Social engineering assessment
+
 • MITRE ATT and CK mapping
+
 • Risk severity evaluation
+
 • Response recommendations
 
 ## Evidence Collection
@@ -180,4 +188,5 @@ This lab demonstrates how SOC analysts detect social engineering threats by anal
 • Security awareness analysis
 
 The investigation confirms that the email represents a social engineering attempt designed to exploit job seekers through a fraudulent recruitment process. The attacker relies primarily on psychological manipulation to achieve initial access rather than technical exploitation. Understanding these tactics is essential for SOC analysts because social engineering remains one of the most common entry points for cyber attacks.
+
 
