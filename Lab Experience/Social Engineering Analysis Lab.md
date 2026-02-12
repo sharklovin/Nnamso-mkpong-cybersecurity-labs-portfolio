@@ -130,7 +130,9 @@ T1598 Phishing for Information
 The attacker aimed to gather victim information through a fraudulent recruitment interaction.
 
 **Credential Access Risk:**
+
 T1056.003 Credential Harvesting
+
 Potential future attacker actions may involve requests for personal identity or financial information.
 
 ## Risk Assessment
@@ -178,3 +180,4 @@ This lab demonstrates how SOC analysts detect social engineering threats by anal
 • Security awareness analysis
 
 The investigation confirms that the email represents a social engineering attempt designed to exploit job seekers through a fraudulent recruitment process. The attacker relies primarily on psychological manipulation to achieve initial access rather than technical exploitation. Understanding these tactics is essential for SOC analysts because social engineering remains one of the most common entry points for cyber attacks.
+
